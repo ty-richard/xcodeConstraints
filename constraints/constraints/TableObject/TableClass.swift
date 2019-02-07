@@ -10,6 +10,7 @@ import Foundation
 
 struct Post {
     
-    var id: Int
+    // var id: String
     var title: String
+    var body: String
 }

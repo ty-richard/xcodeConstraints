@@ -10,5 +10,12 @@ import UIKit
 
 class TableCell: UITableViewCell {
     
+    @IBOutlet weak var Title: UILabel!
     
+    @IBOutlet weak var Body: UILabel!
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+    }
+
 }
