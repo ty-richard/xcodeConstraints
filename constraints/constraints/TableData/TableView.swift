@@ -56,7 +56,6 @@ extension TableView: UITableViewDataSource, UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "testCell") as! TableCell
-        // cell.IdOfPost.text = self.postData[indexPath.row].id
         cell.Title.text = self.postData[indexPath.row].title
         cell.Body.text = self.postData[indexPath.row].body
         return cell
